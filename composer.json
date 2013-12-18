@@ -1,0 +1,32 @@
+{
+    "name": "DDI-development/omnipay-wirecard",
+    "type": "library",
+    "description": "Wirecard gateway for the Omnipay payment processing library",
+    "keywords": [
+        "wirecard",
+        "wirecard.at",
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment"
+    ],
+    "homepage": "https://github.com/DDI-development/omnipay-wirecard",
+    "license": "",
+    "authors": [
+        {
+            "name": "DDI-development",
+            "email": "info@ddi-dev.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "Omnipay\\Wirecard\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "~2.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "~2.0"
+    }
+}
+
